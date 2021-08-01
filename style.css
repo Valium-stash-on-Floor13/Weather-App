@@ -8,7 +8,7 @@
   box-sizing: border-box;
   font-family: inherit;
 }
-body,html {
+body {
   font-family: "Lato", sans-serif;
   letter-spacing: 1px;
   overflow: hidden;
@@ -30,6 +30,37 @@ body,html {
   z-index: -1;
 }
 
+.city {
+  font-size: 20px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: rgb(29, 1, 29);
+  border-bottom: 2px solid rgb(17, 3, 17);
+  margin-right: 30px;
+  padding: 0px 10px;
+}
+
+.btn:hover {
+  border: 2px solid rgb(17, 3, 17);
+  cursor: pointer;
+  color: rgb(143, 54, 143);
+  background: #fff;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 18px;
+  outline: none;
+  border: 2px solid rgb(17, 3, 17);
+  cursor: pointer;
+  background: rgb(143, 54, 143);
+  color: #fff;
+  transition: all 300ms ease-in;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
 .custom-shape-divider-bottom-1626906637 svg {
   position: relative;
   display: block;
