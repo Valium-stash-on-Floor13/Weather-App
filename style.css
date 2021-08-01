@@ -29,8 +29,13 @@ body {
   transform: rotate(180deg);
   z-index: -1;
 }
+.container {
+  display: flex;
+  justify-content: space-around;
+}
 
 .city {
+  width:50%;
   font-size: 20px;
   border: none;
   outline: none;
